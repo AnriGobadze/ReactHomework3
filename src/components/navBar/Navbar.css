@@ -1,0 +1,5 @@
+.navigation {
+    display: flex;       /* Ensures the elements are laid out in a row */
+    gap: 30px;           /* Adds space between navigation items */
+    align-items: center; /* Vertically aligns the items */
+}
