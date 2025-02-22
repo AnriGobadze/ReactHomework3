@@ -1,22 +1,23 @@
 import './App.css'
 
 function App() {
-  let cardInfo = {
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_ZlMsMErAZ7-AYNDTKMV4_MnxnYbR68c5Xq7Wbep_e4fuvVLvD_V930eag3SwR4lQn2E&usqp=CAU",
-    firstname: "Anri",
-    Lastname: "Gobadze"
+  const product = {
+    image: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    title: "Scented Candle",
+    description: "A soothing scented candle for relaxation and mood enhancement.",
+    price: 19.99
   }
 
-
-
   return (
-    <>
-      <div className="card">
-        <img src={cardInfo.image} alt="there is no image"/>
-        <h4>{cardInfo.firstname}</h4>
-        <h5>{cardInfo.Lastname}</h5>
+    <div className="card">
+      <img src={product.image} alt="Product" />
+      <div className="card-info">
+        <h4>{product.title}</h4>
+        <p>{product.description}</p>
+        <p><strong>Price:</strong> ${product.price}</p>
+        <button className="btn">Add to Cart</button>
       </div>
-    </>
+    </div>
   )
 }
 
