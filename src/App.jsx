@@ -3,18 +3,22 @@ import Card from './components/card/Card'
 import Navbar from './components/navBar/Navbar'
 
 function App() {
-  let  cardInfo = {
-    image: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-    title: "Scented Candle",
-    description: "A soothing scented candle for relaxation and mood enhancement.",
-    price: 19.99
+
+  let navbar = {
+    name: "Anri Gobadze",
+    founderOf: "Virtual Assistant",
+    list1: "Services and Pricing",
+    list2: "About",
+    list3: "Contact"
+
   }
+
 
 
   return (
     <>
-    <Navbar/>
-    <Card info={cardInfo}/>
+    <Navbar info={navbar}/>
+    <Card/>
     </>
 
   )

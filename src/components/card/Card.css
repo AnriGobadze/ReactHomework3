@@ -1,0 +1,84 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+}
+
+.card {
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/240572/pexels-photo-240572.jpeg?cs=srgb&dl=pexels-joonas-kaariainen-67364-240572.jpg&fm=jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  image-rendering:auto;
+}
+
+
+
+.card h1, .card h4, .card button {
+  margin: 15px;
+}
+
+.card h1{
+  font-size: 40px;
+  color: #f2f2f2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.card h4{
+  color: #f2f2f2;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+.card button {
+  font-family: 'Dancing Script', cursive;
+  background-color: #ec765e;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.card button:hover {
+  background-color: #d45b4a;
+  box-shadow: 0 0 10px #ec765e, 0 0 20px #ec765e, 0 0 30px #ec765e;
+}
+
+.container{
+  position: relative;
+  padding: 60px;
+  background:  rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255,255,255, 0.5);
+  border-right: 1px solid rgba(255,255,255, 0.5);
+  width: 450px;
+  height: 605px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+  
+
+  
+  
+}
+
+
+
+
+
+
+
+
+
