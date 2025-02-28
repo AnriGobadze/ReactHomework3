@@ -1,6 +1,9 @@
 import './App.css'
-import Card from './components/card/Card'
+import Section1 from './components/section/Section1'
 import Navbar from './components/navBar/Navbar'
+import Footer from './components/footer/footer'
+
+
 
 function App() {
 
@@ -18,7 +21,8 @@ function App() {
   return (
     <>
     <Navbar info={navbar}/>
-    <Card/>
+    <Section1/>
+    <Footer/>
     </>
 
   )

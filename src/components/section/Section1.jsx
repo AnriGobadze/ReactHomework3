@@ -1,5 +1,5 @@
 import React from 'react'
-import './Card.css'; 
+import './Section1.css'; 
 
 
 export default function Card() {
@@ -9,7 +9,7 @@ export default function Card() {
     <div className="card"> 
       <div className="container">
       <h1>Virtual Assistant <br></br>at Your Service</h1>
-      <h4>I am title. click here to edit me</h4>
+      <h4>we sell Feeling not Product.</h4>
       <button>See Services</button>
 
       </div> 
