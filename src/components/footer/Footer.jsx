@@ -2,7 +2,7 @@ import React from "react";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import "./Footer.css";
 
-export default function Footer() {
+export default function Footers() {
   return (
     <footer className="footer-container">
       <div className="left-footer">

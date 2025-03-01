@@ -2,6 +2,9 @@ import './App.css'
 import Section1 from './components/section/Section1'
 import Navbar from './components/navBar/Navbar'
 import Footer from './components/footer/footer'
+import Footers from './components/footer/footer'
+
+
 
 
 
@@ -22,7 +25,7 @@ function App() {
     <>
     <Navbar info={navbar}/>
     <Section1/>
-    <Footer/>
+    <Footers/>
     </>
 
   )
