@@ -37,7 +37,7 @@ export default function Footer() {
 
       <div className="right-footer">
         <h2>About this company</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis pariatur quidem explicabo quos nulla veritatis assumenda dolor, sunt, voluptates nihil voluptatum repudiandae aspernatur officia. Tempore numquam accusantium, inventore, facilis rem, ea architecto deserunt cumque neque quis incidunt molestias error reiciendis.</p>
+        <p>Lorem ipsum dolori a  sit amet consectetur adipisicing elit. Reiciendis pariatur quidem explicabo quos nulla veritatis assumenda dolor, sunt, voluptates nihil voluptatum repudiandae aspernatur officia. Tempore numquam accusantium, inventore, facilis rem, ea architecto deserunt cumque neque quis incidunt molestias error reiciendis.</p>
       </div>
     </footer>
   );
